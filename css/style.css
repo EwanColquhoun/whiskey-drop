@@ -2,6 +2,10 @@ body {
     background-color: blue;
 }
 
+.row {
+    margin: 0 auto;
+}
+
 .opaque-overlay {
     position: absolute;
     top: 0;
@@ -9,6 +13,11 @@ body {
     height: 100%;
     width: 100%;
     background-color: rgba(0,0,0,0.5);
+}
+
+.alert {
+    margin-bottom: 0;
+    border: 1px solid;
 }
 
 .callout-container {
@@ -24,6 +33,27 @@ body {
     justify-content: center;
 
     position: relative;
+}
+
+.quotes-container {
+    background-color: grey;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.monthly-container {
+    background-color: peru;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.features-container {
+    background-color: whitesmoke;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 
 .block-divider {
