@@ -222,3 +222,8 @@
 .table-light th td {
     color: white;
 }
+
+/* mailchimp */
+#mc_embed_signup_form {
+    padding: 0px;
+}
